@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=/, initial-scale=1.0">
+    <title>lista de convidados</title>
+    <style src="style.css"></style>
+</head>
+
+<body>
+
+    <Center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">LISTA DE CONVIDADOS</h3>
+        <div id="rows">
+            <input type="text" placeholder="Insira o nome" id="nome1">
+
+            <button onclick="submit()" id="submitButton">enviar</button>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <hr>
+            <div id="displayName">
+
+            </div>
+            <hr>
+            <div id="show1">
+                <h3 id="hd1">Lista de convidados</h3>
+                <button onclick="show()" id="show">mostrar</button>
+                <p id="p1"></p>
+            </div>
+            <hr>
+            <button onclick="sorting()" id="sortButton">Lista organizada</button>
+
+            <div id="sorted"></div>
+        </div>
+        <hr>
+
+        <input type="text" placeholder="pesquisar nome" id="s1">&nbsp;
+        <button onclick="searching()" id="SRCH">pesquisar</button>
+        <p id="p2"></p>
+
+    </Center>
+<script src="main.js"></script>
+</body>
+
+</html>
